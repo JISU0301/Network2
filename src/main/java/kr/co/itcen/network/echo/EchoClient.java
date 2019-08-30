@@ -1,3 +1,4 @@
+package kr.co.itcen.network.echo;
 
 
 import java.io.BufferedReader;
@@ -12,7 +13,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class EchoClient {
-	private static final String SERVER_IP = "192.168.1.3";
+	private static final String SERVER_IP = "192.168.1.84";
 	private static final int SERVER_PORT = 8000;
 	
 	public static void main(String[] args) {
